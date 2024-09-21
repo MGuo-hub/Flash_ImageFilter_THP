@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		724E30162C9F53C6001743A7 /* Polaroid 600.cube in Resources */ = {isa = PBXBuildFile; fileRef = 724E30152C9F53C6001743A7 /* Polaroid 600.cube */; };
 		725197C82C9EB792003DB642 /* PRESET_Fujicolor_SuperHR100.cube in Resources */ = {isa = PBXBuildFile; fileRef = 725197C72C9EB792003DB642 /* PRESET_Fujicolor_SuperHR100.cube */; };
 		72A877BD2C9BA81100DE47A8 /* ImageProcessorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72A877BC2C9BA81100DE47A8 /* ImageProcessorApp.swift */; };
 		72A877BF2C9BA81100DE47A8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72A877BE2C9BA81100DE47A8 /* ContentView.swift */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		724E30152C9F53C6001743A7 /* Polaroid 600.cube */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Polaroid 600.cube"; sourceTree = "<group>"; };
 		725197C72C9EB792003DB642 /* PRESET_Fujicolor_SuperHR100.cube */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = PRESET_Fujicolor_SuperHR100.cube; sourceTree = "<group>"; };
 		72A877B92C9BA81100DE47A8 /* ImageProcessor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageProcessor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		72A877BC2C9BA81100DE47A8 /* ImageProcessorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageProcessorApp.swift; sourceTree = "<group>"; };
@@ -43,6 +45,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		724E30172C9F53D6001743A7 /* LUTFiles */ = {
+			isa = PBXGroup;
+			children = (
+				725197C72C9EB792003DB642 /* PRESET_Fujicolor_SuperHR100.cube */,
+				724E30152C9F53C6001743A7 /* Polaroid 600.cube */,
+			);
+			path = LUTFiles;
+			sourceTree = "<group>";
+		};
 		72A877B02C9BA81100DE47A8 = {
 			isa = PBXGroup;
 			children = (
@@ -67,7 +78,7 @@
 				72F87A292C9C0BE3005CAFC8 /* Views */,
 				72F87A282C9C0BC3005CAFC8 /* ViewModels */,
 				72A877C02C9BA81300DE47A8 /* Assets.xcassets */,
-				725197C72C9EB792003DB642 /* PRESET_Fujicolor_SuperHR100.cube */,
+				724E30172C9F53D6001743A7 /* LUTFiles */,
 				72A877C22C9BA81300DE47A8 /* Preview Content */,
 			);
 			path = ImageProcessor;
@@ -168,6 +179,7 @@
 			files = (
 				72A877C42C9BA81300DE47A8 /* Preview Assets.xcassets in Resources */,
 				72A877C12C9BA81300DE47A8 /* Assets.xcassets in Resources */,
+				724E30162C9F53C6001743A7 /* Polaroid 600.cube in Resources */,
 				725197C82C9EB792003DB642 /* PRESET_Fujicolor_SuperHR100.cube in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
