@@ -1,0 +1,14 @@
+#Created by: Pixelmator Pro
+#Color profile: "sRGB IEC61966-2.1"
+
+TITLE "PRESET_Fujicolor_SuperHR100"
+LUT_3D_SIZE 2
+
+0.0 0.0 0.0
+0.0 0.0 1.0
+0.0 1.0 0.0
+0.0 1.0 1.0
+1.0 0.0 0.0
+1.0 0.0 1.0
+1.0 1.0 0.0
+1.0 1.0 1.0
