@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		724BCD072CA0AF84005E29F7 /* FilterApplier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 724BCD062CA0AF84005E29F7 /* FilterApplier.swift */; };
 		724E30162C9F53C6001743A7 /* Polaroid 600.cube in Resources */ = {isa = PBXBuildFile; fileRef = 724E30152C9F53C6001743A7 /* Polaroid 600.cube */; };
 		725197C82C9EB792003DB642 /* PRESET_Fujicolor_SuperHR100.cube in Resources */ = {isa = PBXBuildFile; fileRef = 725197C72C9EB792003DB642 /* PRESET_Fujicolor_SuperHR100.cube */; };
 		72A877BD2C9BA81100DE47A8 /* ImageProcessorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72A877BC2C9BA81100DE47A8 /* ImageProcessorApp.swift */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		724BCD062CA0AF84005E29F7 /* FilterApplier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterApplier.swift; sourceTree = "<group>"; };
 		724E30152C9F53C6001743A7 /* Polaroid 600.cube */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Polaroid 600.cube"; sourceTree = "<group>"; };
 		725197C72C9EB792003DB642 /* PRESET_Fujicolor_SuperHR100.cube */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = PRESET_Fujicolor_SuperHR100.cube; sourceTree = "<group>"; };
 		72A877B92C9BA81100DE47A8 /* ImageProcessor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageProcessor.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -97,6 +99,7 @@
 			isa = PBXGroup;
 			children = (
 				72F87A1D2C9BF0C1005CAFC8 /* LUTLoader.swift */,
+				724BCD062CA0AF84005E29F7 /* FilterApplier.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -193,6 +196,7 @@
 			files = (
 				72A877BF2C9BA81100DE47A8 /* ContentView.swift in Sources */,
 				72F87A2B2C9C0C09005CAFC8 /* AdjustImageViewModel.swift in Sources */,
+				724BCD072CA0AF84005E29F7 /* FilterApplier.swift in Sources */,
 				72F87A1C2C9BEF9D005CAFC8 /* AdjustImageView.swift in Sources */,
 				72A877CD2C9BB17200DE47A8 /* ImageSelectionView.swift in Sources */,
 				72A877BD2C9BA81100DE47A8 /* ImageProcessorApp.swift in Sources */,
